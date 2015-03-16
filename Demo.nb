@@ -1,0 +1,21 @@
+Notebook[{Cell[
+BoxData["2 + 2"],"Input",CellID->23],Cell[
+BoxData["1000!"],"Input",
+CellID->24],Cell[
+BoxData[{RowBox[{"PolyhedronData[","\"RhombicHexecontahedron\"","]"}],"\n",RowBox[
+{"EdgeDetect[%]"}]}],"Input",CellID->27,CellLabel->"In[31]:= "],Cell[
+BoxData[{RowBox[
+{"RandomGraph[{100,200}]"}],"\n",RowBox[{"CommunityGraphPlot[%]"}]}],"Input",CellID->25,
+CellLabel->"In[33]:= "],Cell[
+BoxData[{RowBox[{"GeoGraphics[GeoDisk[Here,Quantity[5,","\"Miles\"","]]]"}],"\n",RowBox[
+{"near=GeoNearest[","\"City\"",",Here,5]"}],"\n",RowBox[{"PieChart[EntityValue[near,","\"Population\"","],ChartLabels\[Rule]near]"}]}],
+"Input",CellID->26,CellLabel->"In[12]:= "],Cell[
+BoxData[RowBox[{"EntityValue[PlanetData[],","\"Image\"","]"}]],
+"Input",CellID->41,CellLabel->"In[21]:= "],Cell[
+BoxData[RowBox[{"CloudDeploy[FormFunction[{","\"country\"","\[Rule]","\"Country\"","},Show[#country[","\"Flag\"","],ImageSize\[Rule]400]&,","\"SVG\"","]]"}]],
+"Input",CellID->55,CellLabel->"In[35]:= "],Cell[
+BoxData[RowBox[{"URLExecute[","\"http://tts-api.com/tts.mp3\"",", {","\"q\""," \[Rule] ","\"trombone\"","}]"}]],
+"Input",CellID->19,CellLabel->"In[5]:= "],Cell[
+BoxData[{RowBox[{"img=Import[","\"http://www.lebanon24.com/Content/ResizedImages/444/285/outside/141208095518714.jpg\"","]"}],"\n",RowBox[
+{"ImageApply[TriangleWave,img]"}]}],"Input",CellID->98,CellLabel->"In[57]:= "]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)",WindowSize->{816,434}]
